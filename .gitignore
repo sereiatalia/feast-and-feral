@@ -1,0 +1,46 @@
+# Unity generated and local files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash and build artifacts
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.dmg
+*.exe
+*.dll
+*.zip
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep Unity metadata and package/project settings tracked
+!Assets/**
+!Packages/**
+!ProjectSettings/**
