@@ -1,0 +1,9 @@
+{
+  "name": "feast-and-feral-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official Feast and Feral game website",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

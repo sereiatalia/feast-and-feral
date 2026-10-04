@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A culinary contract on a dangerous island. Meet the cooks of Feast and Feral, a survival-cooking game in development.">
+    <meta name="theme-color" content="#282019">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Feast and Feral — The island is hungry">
+    <meta property="og:description" content="Scavenge, cook, and deliver on a dangerous island where monsters can smell what you’re making.">
+    <meta property="og:image" content="assets/feast-and-feral-logo-transparent.png">
+    <title>Feast and Feral — The island is hungry</title>
+    <link rel="icon" href="assets/feast-and-feral-icon.ico">
+    <link rel="stylesheet" href="styles.css?v=27">
+    <link rel="stylesheet" href="adventure.css?v=3">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg class="effect-defs" aria-hidden="true" width="0" height="0"><defs>
+      <filter id="living-water" x="-3%" y="-3%" width="106%" height="106%">
+        <feTurbulence type="fractalNoise" baseFrequency=".009 .06" numOctaves="1" seed="7" result="water-noise"><animate attributeName="baseFrequency" values=".009 .06;.013 .08;.009 .06" dur="12s" repeatCount="indefinite"/></feTurbulence>
+        <feDisplacementMap in="SourceGraphic" in2="water-noise" scale="12" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <symbol id="icon-leaf" viewBox="0 0 48 48"><path d="M10 38C5 14 22 8 40 7c0 18-5 34-25 29M8 41 32 17M18 31l-1-11m8 4 10-1"/></symbol>
+      <symbol id="icon-fire" viewBox="0 0 48 48"><path d="M25 4c4 14-8 15-3 23 4-2 7-6 8-10 10 10 12 21 0 26H16C2 34 11 22 16 17c-1 7 2 9 4 9C14 15 24 14 25 4Z"/><path d="M22 42c-6-5-2-10 2-13 0 5 7 7 4 13"/></symbol>
+      <symbol id="icon-compass" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="m31 17-4 10-10 4 4-10 10-4ZM24 2v7m0 30v7M2 24h7m30 0h7"/></symbol>
+      <symbol id="icon-mushroom" viewBox="0 0 48 48"><path d="M5 26C5 1 43 1 43 26H5ZM20 26l-3 15h14l-3-15"/><path d="M14 19h1m9-6h1m8 8h1"/></symbol>
+      <symbol id="icon-plum" viewBox="0 0 48 48"><path d="M25 14C2 3 2 42 23 43 45 44 48 7 25 14ZM25 14c-2-7 2-10 6-12m-7 10C15 12 13 7 13 4c7-1 12 1 11 8M23 20c-5 5-5 11-3 17"/></symbol>
+    </defs></svg>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Feast and Feral home"><img src="assets/feast-and-feral-logo-transparent.png" alt="Feast and Feral"></a>
+      <nav aria-label="Main navigation">
+        <a href="#kitchen">The kitchen</a>
+        <a href="#story">The lore</a>
+        <a href="#crew">The chefs</a>
+        <a href="#gallery">Gallery</a>
+        <a class="nav-download" href="#download">Get the game <span aria-hidden="true">↘</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-sky" aria-hidden="true"><div class="hero-water"></div></div>
+        <div class="hero-veil" aria-hidden="true"></div>
+        <div class="hero-cast" aria-hidden="true">
+          <img class="cast-chef cast-chef-one" src="assets/cook-field-01.png" alt="">
+          <img class="cast-chef cast-chef-four" src="assets/cook-field-04.png" alt="">
+        </div>
+        <div class="hero-copy">
+          <p class="hero-wordmark">Feast <em>&amp;</em> Feral</p>
+          <h1 id="hero-title">The island<br>is <em>hungry.</em></h1>
+          <p class="hero-lede">A crew of chefs. A magical wild. Strange ingredients—and hungry creatures just beyond the firelight.</p>
+          <div class="hero-actions"><a class="button button-gold" href="https://gcls-sti.itch.io/feast-and-feral" target="_blank" rel="noopener noreferrer" aria-label="Play Feast and Feral on itch.io"><span>Play</span></a></div>
+        </div>
+        <div class="hero-bottom"><span>AN APPETITE FOR ADVENTURE</span><a href="#expedition" aria-label="Explore the island below"><span class="scroll-thread" aria-hidden="true"></span>STEP ASHORE</a><span>EXPLORE · FORAGE · SURVIVE</span></div>
+      </section>
+
+      <section class="expedition-section" id="expedition" aria-labelledby="expedition-title">
+        <p class="section-eyebrow reveal"><span>WELCOME TO THE WILD</span><i></i><span>BRING YOUR APPETITE</span></p>
+        <h2 id="expedition-title" class="reveal">Great meals begin<br>with a little <em>danger.</em></h2>
+        <div class="survival-loop">
+          <article class="reveal"><svg aria-hidden="true"><use href="#icon-compass"/></svg><div><span>01 / VENTURE OUT</span><h3>Beyond the shore.</h3><p>Follow the coastline. Leave the familiar behind. The island has a taste for the unexpected.</p></div></article>
+          <article class="reveal"><svg aria-hidden="true"><use href="#icon-leaf"/></svg><div><span>02 / GATHER YOUR COURAGE</span><h3>Find the impossible.</h3><p>Wild herbs, strange mushrooms, and something with teeth. Your next ingredient is out there.</p></div></article>
+          <article class="reveal"><svg aria-hidden="true"><use href="#icon-fire"/></svg><div><span>03 / KEEP THE FIRE ALIVE</span><h3>Dinner draws a crowd.</h3><p>A warm meal brings the crew together. Its scent brings something else.</p></div></article>
+        </div>
+      </section>
+
+      <section class="kitchen-section" id="kitchen" aria-labelledby="kitchen-title">
+        <div class="kitchen-illustration reveal">
+          <div class="cave-backdrop" aria-hidden="true"></div>
+          <div class="hearth-glow" aria-hidden="true"></div>
+          <div class="vessel-rig">
+            <img class="camp-art" src="assets/cave-cooking-vessel-open.png" alt="Ornate gold cave cooking vessel with curled handles and a lifting lid, above a stone-ring fire" loading="lazy" decoding="async" width="1280" height="1280">
+            <img class="vessel-lid" src="assets/cave-cooking-vessel.png" alt="" aria-hidden="true" loading="lazy" decoding="async" width="1280" height="1280">
+            <span class="offering-token" aria-hidden="true"></span>
+          </div>
+          <button class="pot-target" type="button" aria-label="Add prepared batch to cooking pot" disabled><span>Add logs to light the fire</span></button>
+          <div class="pot-steam" aria-hidden="true"><i></i><i></i><i></i></div>
+          <canvas class="ember-canvas" aria-hidden="true"></canvas>
+          <span class="hearth-caption">THE CAVE BASE · YOUR COOKING STATION</span>
+        </div>
+        <div class="kitchen-copy reveal">
+          <p class="section-eyebrow"><span>THE CAVE KITCHEN</span><i></i><span>BACK AT BASE</span></p>
+          <h2 id="kitchen-title">Read the recipe.<br><em>Keep the fire alive.</em></h2>
+          <p>One tap, one chop. Prepare the recipe’s full ingredient count on the board, then drag the batch into the hungry pot. Keep its fire fed with logs.</p>
+          <div class="recipe-demo">
+            <div class="recipe-scroll">
+              <div class="recipe-heading"><span>RECIPE</span><span id="ingredient-count">0 / 10 BATCHES</span></div>
+              <h3>Behemoth Crown Roast</h3>
+              <ol class="recipe-list" aria-label="Ingredients in recipe order">
+                <li data-name="Exotic Thyme" data-quantity="4"><span>Exotic Thyme</span><b>×4</b></li>
+                <li data-name="Moonlight Fern" data-quantity="4"><span>Moonlight Fern</span><b>×4</b></li>
+                <li data-name="Eagle Breast" data-quantity="3"><span>Eagle Breast</span><b>×3</b></li>
+                <li data-name="Potato" data-quantity="3"><span>Potato</span><b>×3</b></li>
+                <li data-name="Exotic Purple Garlic" data-quantity="2"><span>Exotic Purple Garlic</span><b>×2</b></li>
+                <li data-name="Petrified Amber Sap" data-quantity="2"><span>Petrified Amber Sap</span><b>×2</b></li>
+                <li data-name="Swamp Truffle" data-quantity="2"><span>Swamp Truffle</span><b>×2</b></li>
+                <li data-name="Ribcage" data-quantity="2"><span>Ribcage</span><b>×2</b></li>
+                <li data-name="Cloud Berry" data-quantity="2"><span>Cloud Berry</span><b>×2</b></li>
+                <li data-name="Soy Sauce" data-quantity="1"><span>Soy Sauce</span><b>×1</b></li>
+              </ol>
+            </div>
+            <button class="prep-board" type="button" aria-describedby="prep-instructions">
+              <svg class="chopping-knife" viewBox="0 0 64 64" aria-hidden="true"><path d="M9 35 36 8l16 16-22 22c-8 5-17 0-21-11Z" fill="#f8ecd2" stroke="#c4a56c" stroke-width="2"/><path d="m36 42 14 14c4 4 11-3 7-7L43 35Z" fill="#42251a" stroke="#d6af69" stroke-width="2"/><circle cx="49" cy="47" r="2" fill="#e8c77f"/></svg>
+              <small>CUTTING BOARD · TAP TO CHOP</small><strong>Exotic Thyme ×4</strong>
+              <span class="chop-meter" aria-hidden="true"></span>
+              <span class="prep-hint">0 / 4 chops · tap the board</span>
+            </button>
+            <p class="prep-instructions" id="prep-instructions">Chop once per ingredient. When ready, drag the batch or tap the pot.</p>
+            <div class="fuel-heading"><span>FIRE FUEL <strong id="fuel-level">0%</strong></span><button class="fuel-button" type="button">+ Add logs</button></div>
+            <div class="scent-track fuel-track" role="progressbar" aria-label="Fire fuel" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+            <div class="recipe-actions"><button class="cook-button" type="button" disabled><svg aria-hidden="true"><use href="#icon-fire"/></svg><span>Follow the recipe order</span></button><span class="demo-label">COOKING PREVIEW</span></div>
+            <p class="recipe-status" role="status">Add logs to the fire, then prepare the first batch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="section-ornament" aria-hidden="true">✳</div>
+        <div class="story-inner">
+          <p class="section-eyebrow"><span>THE ISLAND’S HISTORY</span><i></i><span>A TALE OF LIGHT & HUNGER</span></p>
+          <h2 id="story-title">Before the island went feral,<br><em>two friends called it home.</em></h2>
+          <p class="story-intro">Long before the island became a hunting ground, it was a wild, magical sanctuary. This is the story of the adventurer who would become the Head Chef, the young guardian Beast, and the catastrophe that changed everything.</p>
+          <div class="story-beats">
+            <article class="story-beat"><span class="beat-index">I&nbsp; / &nbsp;THE FIRST MEAL</span><h3>A frightened guardian.</h3><p>Exploring the island for rare ingredients, a young adventurer hears a whimper in a cavern. There he finds Beast: a wounded guardian child whose wild magic is beyond his control. A roasted dusk plum—and a gentle hand—begin an unlikely friendship.</p></article>
+            <article class="story-beat"><span class="beat-index">II&nbsp; / &nbsp;A DREAM SHARED</span><h3>A home built around the fire.</h3><p>Season after season, Beast and the adventurer explore, forage, and cook together. They dream of a new kind of guild: a home for chefs brave enough to hunt for impossible ingredients beyond the safety of the kitchen.</p></article>
+            <article class="story-beat"><span class="beat-index">III&nbsp; / &nbsp;THE SHATTERING</span><h3>The guardian’s light is broken.</h3><p>The Dark Beast Lord finds the last guardian, the same darkness that destroyed Beast’s family. Beast stands to protect his friend, but his power is still raw. The Lord tears out and shatters Beast’s magic, scattering its fragments across the island.</p></article>
+            <article class="story-beat"><span class="beat-index">IV&nbsp; / &nbsp;THE CURSE OF THE SCENT</span><h3>Cooking calls the horde.</h3><p>The fragments twist peaceful wildlife into feral hybrids, each carrying a piece of Beast’s lost power. The Lord curses them to frenzy at the smell of prepared food. The adventurer escapes, but the island—and Beast—are lost to the shadows.</p></article>
+          </div>
+          <p class="lore-coda">Now the island’s scattered magic waits in the monsters’ flesh. Somewhere beyond the shore, a new crew of culinary adventurers is ready to answer the call.</p>
+        </div>
+      </section>
+
+      <section class="crew-section" id="crew" aria-labelledby="crew-title">
+        <div class="crew-heading">
+          <div><p class="section-eyebrow"><span>THE FIELD COOKS</span><i></i><span>04 CREW</span></p><h2 id="crew-title">Choose your place<br>at the <em>fire.</em></h2></div>
+          <p>Every expedition starts at the cave fire. Choose who’s taking point, then pack up and head into the wild.</p>
+        </div>
+        <div class="character-select" aria-label="Feast and Feral chef character profiles">
+          <article class="character-card character-card-one is-selected" data-chef="01">
+            <div class="character-card-inner">
+              <div class="character-card-face character-card-front">
+                <div class="character-card-top"><span>FIELD COOK&nbsp; / &nbsp;ADRIAN</span><button class="card-flip-toggle" type="button" aria-label="View Adrian’s profile" aria-expanded="false">PROFILE&nbsp; ↻</button></div>
+                <div class="character-art"><div class="character-halo" aria-hidden="true"></div><img src="assets/cook-field-01.png" alt="Blond field chef with a blue-grey backpack holding a wooden cooking spoon"></div>
+                <div class="character-info"><span class="character-label">BASE DEFENDER</span><h3>Adrian</h3><p>Holds the line—and keeps the pot safe.</p><button class="chef-select" type="button" data-chef="01" data-name="Adrian" aria-pressed="true">At the fire <span aria-hidden="true">✓</span></button></div>
+                <div class="card-corner card-corner-tl" aria-hidden="true"></div><div class="card-corner card-corner-br" aria-hidden="true"></div>
+              </div>
+              <div class="character-card-face character-card-back" aria-hidden="true">
+                <div class="profile-back-top"><span>FIELD PROFILE&nbsp; / &nbsp;01</span><button class="card-flip-toggle" type="button" aria-label="Return to Adrian’s portrait" aria-expanded="true">↶ PORTRAIT</button></div>
+                <div class="profile-back-content"><p class="profile-role">BASE DEFENDER</p><h3>Adrian</h3><dl class="profile-stats"><div><dt>HP</dt><dd>+20%</dd></div><div><dt>Speed</dt><dd>−15%</dd></div><div><dt>Attack</dt><dd>+10%</dd></div><div><dt>Cooking speed</dt><dd>+10%</dd></div></dl><div class="profile-passive"><span>PASSIVE&nbsp; / &nbsp;CULINARY DISCIPLINE</span><p>Reduces the monster scent expansion radius by 15% when adding ingredients to the boiling pot.</p></div></div>
+              </div>
+            </div>
+          </article>
+          <article class="character-card character-card-two" data-chef="02">
+            <div class="character-card-inner">
+              <div class="character-card-face character-card-front">
+                <div class="character-card-top"><span>FIELD COOK&nbsp; / &nbsp;MEI-LIN</span><button class="card-flip-toggle" type="button" aria-label="View Mei-Lin’s profile" aria-expanded="false">PROFILE&nbsp; ↻</button></div>
+                <div class="character-art"><div class="character-halo" aria-hidden="true"></div><img src="assets/cook-field-02.png" alt="Dark-haired field chef with a blue-grey backpack holding an oversized white cooking spoon"></div>
+                <div class="character-info"><span class="character-label">AGILITY FORAGER</span><h3>Mei-Lin</h3><p>Quick on her feet, even when the wild stirs.</p><button class="chef-select" type="button" data-chef="02" data-name="Mei-Lin" aria-pressed="false">Choose Mei-Lin <span aria-hidden="true">↗</span></button></div>
+                <div class="card-corner card-corner-tl" aria-hidden="true"></div><div class="card-corner card-corner-br" aria-hidden="true"></div>
+              </div>
+              <div class="character-card-face character-card-back" aria-hidden="true">
+                <div class="profile-back-top"><span>FIELD PROFILE&nbsp; / &nbsp;02</span><button class="card-flip-toggle" type="button" aria-label="Return to Mei-Lin’s portrait" aria-expanded="true">↶ PORTRAIT</button></div>
+                <div class="profile-back-content"><p class="profile-role">AGILITY FORAGER</p><h3>Mei-Lin</h3><dl class="profile-stats"><div><dt>HP</dt><dd>−25%</dd></div><div><dt>Speed</dt><dd>+15%</dd></div><div><dt>Attack</dt><dd>−15%</dd></div><div><dt>Cooking speed</dt><dd>Normal</dd></div></dl><div class="profile-passive"><span>PASSIVE&nbsp; / &nbsp;SPICY EVASION</span><p>Gets a temporary sprint burst when a nearby monster is alerted by the scent of an ingredient she picked up. <small>5 sec cooldown</small></p></div></div>
+              </div>
+            </div>
+          </article>
+          <article class="character-card character-card-three" data-chef="03">
+            <div class="character-card-inner">
+              <div class="character-card-face character-card-front">
+                <div class="character-card-top"><span>FIELD COOK&nbsp; / &nbsp;TRISTAN</span><button class="card-flip-toggle" type="button" aria-label="View Tristan’s profile" aria-expanded="false">PROFILE&nbsp; ↻</button></div>
+                <div class="character-art"><div class="character-halo" aria-hidden="true"></div><img src="assets/cook-field-03.png" alt="Blonde field chef with a backpack, ladle and gathered herbs"></div>
+                <div class="character-info"><span class="character-label">BRUISER</span><h3>Tristan</h3><p>Turns kitchen tools into monster-hunting gear.</p><button class="chef-select" type="button" data-chef="03" data-name="Tristan" aria-pressed="false">Choose Tristan <span aria-hidden="true">↗</span></button></div>
+                <div class="card-corner card-corner-tl" aria-hidden="true"></div><div class="card-corner card-corner-br" aria-hidden="true"></div>
+              </div>
+              <div class="character-card-face character-card-back" aria-hidden="true">
+                <div class="profile-back-top"><span>FIELD PROFILE&nbsp; / &nbsp;03</span><button class="card-flip-toggle" type="button" aria-label="Return to Tristan’s portrait" aria-expanded="true">↶ PORTRAIT</button></div>
+                <div class="profile-back-content"><p class="profile-role">BRUISER</p><h3>Tristan</h3><dl class="profile-stats"><div><dt>HP</dt><dd>+15%</dd></div><div><dt>Speed</dt><dd>−20%</dd></div><div><dt>Attack</dt><dd>+20%</dd></div><div><dt>Cooking speed</dt><dd>−10%</dd></div></dl><div class="profile-passive"><span>PASSIVE&nbsp; / &nbsp;HEAVY HITTER</span><p>Deals 20% bonus damage with culinary-themed weapons, helping harvest rare meat from large monsters. <small>5 sec cooldown</small></p></div></div>
+              </div>
+            </div>
+          </article>
+          <article class="character-card character-card-four" data-chef="04">
+            <div class="character-card-inner">
+              <div class="character-card-face character-card-front">
+                <div class="character-card-top"><span>FIELD COOK&nbsp; / &nbsp;COLE</span><button class="card-flip-toggle" type="button" aria-label="View Cole’s profile" aria-expanded="false">PROFILE&nbsp; ↻</button></div>
+                <div class="character-art"><div class="character-halo" aria-hidden="true"></div><img src="assets/cook-field-04.png" alt="Headband-wearing field chef with a backpack holding a dark pan and wooden spoon"></div>
+                <div class="character-info"><span class="character-label">STEALTH SCOUT</span><h3>Cole</h3><p>Forages quietly beyond the firelight.</p><button class="chef-select" type="button" data-chef="04" data-name="Cole" aria-pressed="false">Choose Cole <span aria-hidden="true">↗</span></button></div>
+                <div class="card-corner card-corner-tl" aria-hidden="true"></div><div class="card-corner card-corner-br" aria-hidden="true"></div>
+              </div>
+              <div class="character-card-face character-card-back" aria-hidden="true">
+                <div class="profile-back-top"><span>FIELD PROFILE&nbsp; / &nbsp;04</span><button class="card-flip-toggle" type="button" aria-label="Return to Cole’s portrait" aria-expanded="true">↶ PORTRAIT</button></div>
+                <div class="profile-back-content"><p class="profile-role">STEALTH SCOUT</p><h3>Cole</h3><dl class="profile-stats"><div><dt>HP</dt><dd>Normal</dd></div><div><dt>Speed</dt><dd>+10%</dd></div><div><dt>Attack</dt><dd>+10%</dd></div><div><dt>Cooking speed</dt><dd>Normal</dd></div></dl><div class="profile-passive"><span>PASSIVE&nbsp; / &nbsp;AIRTIGHT SEAL</span><p>Temporarily masks the scent of a raw ingredient in his 3-slot hotbar, letting him forage without drawing monster aggro. <small>5 sec cooldown</small></p></div></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="fire-status" aria-live="polite"><span class="fire-status-icon" aria-hidden="true">✦</span><span><small>AT THE FIRE</small><strong id="fire-chef-name">Adrian</strong></span><span class="fire-status-note">Your expedition starts here.</span></div>
+        <p class="character-footnote">Four cooks. Four ways to face the wild. Flip a portrait to discover their strengths.</p>
+      </section>
+
+      <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading"><div><p class="section-eyebrow"><span>VISUAL ARCHIVE</span><i></i><span>GALLERY</span></p><h2 id="gallery-title">A glimpse of what’s<br><em>out there.</em></h2></div><span class="gallery-count">ARTWORK PREVIEW&nbsp; / &nbsp;01—03</span></div>
+        <div class="gallery-grid">
+          <article class="gallery-card gallery-island"><div class="gallery-placeholder-art"><img class="gallery-art-image" src="assets/gallery-island.png" alt="Bright island shoreline and green hills in the game's stylized 3D look"><span class="placeholder-status">GAME-INSPIRED PREVIEW</span></div><div class="gallery-caption"><span>01</span><div><h3>The island</h3><p>DAYLIGHT EXPLORATION</p></div><span class="caption-arrow">↗</span></div></article>
+          <article class="gallery-card gallery-kitchen"><div class="gallery-placeholder-art"><img class="gallery-art-image" src="assets/gallery-cave-base.png" alt="A small cave base with a brass cooking pot, timber supports, torches, and a workbench"><span class="placeholder-status">GAME-INSPIRED PREVIEW</span></div><div class="gallery-caption"><span>02</span><div><h3>The cave base</h3><p>HOME BY THE FIRE</p></div><span class="caption-arrow">↗</span></div></article>
+          <article class="gallery-card gallery-feral"><div class="gallery-placeholder-art"><img class="gallery-art-image" src="assets/gallery-island-encounter.png" alt="A chef on a log raft faces a dark wolf-like creature across rainy blue water"><span class="placeholder-status">GAME-INSPIRED PREVIEW</span></div><div class="gallery-caption"><span>03</span><div><h3>Across the water</h3><p>KEEP YOUR DISTANCE</p></div><span class="caption-arrow">↗</span></div></article>
+        </div>
+        <p class="gallery-note">A window into the world of Feast &amp; Feral. Game-inspired concept artwork.</p>
+      </section>
+
+      <section class="wildlife-section" id="wildlife" aria-labelledby="wildlife-title">
+        <div class="wildlife-heading">
+          <p class="section-eyebrow"><span>FIELD GUIDE</span><i></i><span>ISLAND WILDLIFE</span></p>
+          <h2 id="wildlife-title">The wild has<br><em>wings and teeth.</em></h2>
+          <p>Small marvels drift above the canopy. Feral hunters roam the shore grass. Every trail has its own surprise.</p>
+        </div>
+        <div class="wildlife-grid">
+          <article class="wildlife-card wildlife-mouse">
+            <div class="wildlife-art"><span class="wildlife-orbit" aria-hidden="true"></span><img src="assets/wildlife-winged-mouse.png" alt="A gray winged mouse gliding with its white feathered wings spread"></div>
+            <div class="wildlife-copy"><span>01&nbsp; / &nbsp;SKY SCAVENGER</span><h3>Winged mouse</h3><p>A curious shadow over the cliffs.</p><details><summary>Open field notes <span aria-hidden="true">+</span></summary><p>Look above the trail. Not every rustle comes from the undergrowth.</p></details></div>
+          </article>
+          <article class="wildlife-card wildlife-wolf">
+            <div class="wildlife-art"><span class="wildlife-orbit" aria-hidden="true"></span><img src="assets/wildlife-feral-wolf.png" alt="A cool gray wolf-like island creature prowling with one paw raised"></div>
+            <div class="wildlife-copy"><span>02&nbsp; / &nbsp;SHORELINE HOWLER</span><h3>Feral wolf</h3><p>Follow the tracks, not the howl.</p><details><summary>Open field notes <span aria-hidden="true">+</span></summary><p>The shore falls quiet for a reason. Stay close to your crew when the light begins to fade.</p></details></div>
+          </article>
+          <article class="wildlife-card wildlife-striped">
+            <div class="wildlife-art"><span class="wildlife-orbit" aria-hidden="true"></span><img src="assets/wildlife-striped-beast.png" alt="An orange-and-cream striped feral beast crouching low"></div>
+            <div class="wildlife-copy"><span>03&nbsp; / &nbsp;GRASSLAND STALKER</span><h3>Striped beast</h3><p>Stillness is part of the hunt.</p><details><summary>Open field notes <span aria-hidden="true">+</span></summary><p>Between the gold of the grass and the dark of the trees, a patient hunter waits.</p></details></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="download-section" id="download" aria-labelledby="download-title">
+        <div class="download-crest" aria-hidden="true"><img src="assets/feast-and-feral-logo-transparent.png" alt=""></div>
+        <p class="section-eyebrow"><span>THE NEXT COURSE</span><i></i><span>AVAILABLE ON ITCH.IO</span></p>
+        <h2 id="download-title">The island is waiting.<br><em>So is your order.</em></h2>
+        <p class="download-copy">The latest Feast and Feral build is ready to explore. Visit our itch.io page to play and see what’s new.</p>
+        <a class="button button-gold itch-download" href="https://gcls-sti.itch.io/feast-and-feral" target="_blank" rel="noopener noreferrer" aria-label="Play Feast and Feral on itch.io">Play on itch.io</a>
+        <p class="build-meta">FEAST AND FERAL&nbsp; · &nbsp;PLAY ON ITCH.IO</p>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-brand" href="#top">FEAST <span>&</span> FERAL</a><span>An appetite for adventure. A taste for the wild.</span><a href="#top">Back to the shore ↑</a><small>© 2026 Feast and Feral · GCLS Games</small><button class="effects-toggle" type="button" aria-pressed="true">Atmosphere: on</button></footer>
+    <dialog class="gallery-dialog" aria-label="Island artwork viewer"><button class="gallery-close" type="button" aria-label="Close artwork">×</button><figure><img alt=""><figcaption></figcaption></figure><div class="gallery-controls"><button type="button" data-gallery-step="-1" aria-label="Previous artwork">←</button><span class="gallery-position"></span><button type="button" data-gallery-step="1" aria-label="Next artwork">→</button></div></dialog>
+    <script src="site.js?v=3" defer></script>
+    <script src="adventure.js?v=3" defer></script>
+  </body>
+</html>

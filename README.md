@@ -2,6 +2,17 @@
 
 Unity game project and development files for Feast and Feral.
 
+The project website is deployed from the repository root with GitHub Pages:
+https://sereiatalia.github.io/feast-and-feral/
+
+The landing page lives in `index.html`, its styles and interactions are in
+`styles.css`, `adventure.css`, and `site.js` / `adventure.js`, and its artwork
+is in `assets/`. The site links to the current game page on itch.io.
+
+## Local website preview
+
+The static site can be previewed with `npm start` from the repository root.
+
 ## Unity project files to commit
 
 - `Assets/` — scenes, scripts, art, audio, and other game assets
@@ -16,4 +27,4 @@ For source assets that exceed GitHub's normal file limits, configure Git LFS for
 
 ## Current release
 
-The Windows build shown on itch.io is version 0.2.2. Update this section when a new release is published.
+Check the itch.io page for the latest public Windows build and release details.
